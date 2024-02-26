@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+}
+.container {
+  width: 1340px;
+  margin: 0 auto;
+}
+/* HEADER */
+.header {
+  background: url(./img/cats.png) no-repeat, center;
+  padding: 30px 0 40px 0;
+  /* opacity: 0.6; */
+}
+.blocks {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bloc { 
+  display: none;
+}
+nav {
+  display: flex;
+  gap: 150px;
+}
+nav a {
+  color: white;
+  font-size: 20px;
+}
+nav a:hover {
+  color: blue;
+}
+h1 {
+  font-size: 70px;
+  color: white;
+}
+h3 {
+  color: white;
+}
+p {
+  color: white;
+}
+.naideno {
+  margin: 40px 50px 10px 100px;
+}
+
+/* hero */
+.hero {
+  background: url(./img/imgsection.png) no-repeat, center;
+  background: cover;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px;
+
+  input {
+    outline: none;
+    font-size: 25px;
+    padding: 30px 60px 0px 10px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid red;
+  }
+  button {
+    padding: 10px 20px 50px 10;
+    border: none;
+    border: 1px solid red;
+    border-radius: 5px;
+    background: white;
+    width: 200px;
+    height: 50px;
+      
+  }
+}
+
+/* section */

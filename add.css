@@ -1,0 +1,105 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.todo{
+    max-width: 400px;
+    gap: 10px;
+    width: 100%;
+    background: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    border: none;
+    border: 2px solid green;
+    outline: none;
+    padding: 8px 10px;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 10px;
+}
+.create {
+     padding: 10px 20px;
+     border-radius: 10px;
+     border: none;
+     background: green;
+}
+
+
+.box{
+    display: flex;
+flex-direction: column;
+width: 400px;height: 300px;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  button {
+    border: none;
+  }
+  .container {
+    width: 1340px;
+    margin: 0 auto;
+  }
+  /* HEADER */
+  .header {
+    background: url(./img/cats.png) no-repeat, center;
+    padding: 30px 0 40px 0;
+    /* opacity: 0.6; */
+  }
+  .blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  nav {
+    display: flex;
+    gap: 150px;
+  }
+  nav a {
+    color: white;
+    font-size: 20px;
+  }
+  nav a:hover {
+    color: blue;
+  }
+  h1 {
+    font-size: 70px;
+    color: white;
+  }
+  h3 {
+    color: white;
+  }
+  p {
+    color: white;
+  }
+  .naideno {
+    margin: 40px 50px 10px 100px;
+  }
+#block2{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center; 
+}
+  .box{
+    width: 100%;
+    height: 500px;
+    background:blue;
+    
+  }

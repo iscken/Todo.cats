@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  button {
+    border: none;
+  }
+  .container {
+    width: 1340px;
+    margin: 0 auto;
+  }
+  /* HEADER */
+  .header {
+    background: url(./img/cats.png) no-repeat, center;
+    padding: 30px 0 40px 0;
+    /* opacity: 0.6; */
+  }
+  .blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  nav {
+    display: flex;
+    gap: 150px;
+  }
+  nav a {
+    color: white;
+    font-size: 20px;
+  }
+  nav a:hover {
+    color: blue;
+  }
+  h1 {
+    font-size: 70px;
+    color: white;
+  }
+  h3 {
+    color: white;
+  }
+  p {
+    color: white;
+  }
+  .naideno {
+    margin: 40px 50px 10px 100px;
+  }
+.block2{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center; 
+  gap: 30px;
+  margin: 50px 0;
+}
+  .box{
+    width: 200px;
+    height: 300px;
+    background: wheat;
+    border-radius: 20px;
+    text-align: center;
+    
+    
+  }
+  .img{
+    width: 150px;
+    height: 200px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 10px 0;
+  }
+/* .block2{
+  width: 300px;
+  height: 400px;
+  background: red;
+
+} */
+  
